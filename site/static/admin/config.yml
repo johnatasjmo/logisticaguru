@@ -15,8 +15,9 @@ collections:
       - {label: "categories", name: "categories", widget: "string"}
       - {label: "date", name: "date", widget: "datetime"}
       - {label: "description", name: "description", widget: "string"}
-      - {label: "featured", name: "featured", widget: "string"}
-      - {label: "featuredalt", name: "featuredalt", widget: "string"}
-      - {label: "featuredpath", name: "featuredpath", widget: "string"}
-      - {label: "linktitle", name: "linktitle", widget: "string"}
+      - {label: "featured", name: "featured", widget: "string", required: false}
+      - {label: "featuredalt", name: "featuredalt", widget: "string", required: false}
+      - {label: "featuredpath", name: "featuredpath", widget: "string", required: false}
+      - {label: "linktitle", name: "linktitle", widget: "string", required: false}
       - {label: "title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
