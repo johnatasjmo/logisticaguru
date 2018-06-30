@@ -17,9 +17,9 @@ collections:
       - {label: "categories", name: "categories", widget: "list"}
       - {label: "date", name: "date", widget: "datetime"}
       - {label: "description", name: "description", widget: "string"}
-      - {label: "featured", name: "featured", widget: "image", default: "site/static/img/2018/06/pic01.jpg", required: false}
+      - {label: "featured", name: "featured", widget: "image", default: "site/img/2018/06/pic01.jpg", required: false}
       - {label: "featuredalt", name: "featuredalt", widget: "string", required: false}
-      - {label: "featuredpath", name: "featuredpath", widget: "string", required: false}
+      - {label: "featuredpath", name: "featuredpath", widget: "string", default: "date", required: false}
       - {label: "linktitle", name: "linktitle", widget: "string", required: false}
       - {label: "title", name: "title", widget: "string"}
       - {label: "type", name: "type", widget: "hidden", default: "post"}
