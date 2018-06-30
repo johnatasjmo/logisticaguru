@@ -20,5 +20,5 @@ collections:
       - {label: "featuredpath", name: "featuredpath", widget: "string", required: false}
       - {label: "linktitle", name: "linktitle", widget: "string", required: false}
       - {label: "title", name: "title", widget: "string"}
-      - {label: "type", name: "type", widget: "hidden", default: "blog"}
+      - {label: "type", name: "type", widget: "hidden", default: "post"}
       - {label: "Body", name: "body", widget: "markdown"}
