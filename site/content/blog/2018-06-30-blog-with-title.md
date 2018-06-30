@@ -4,7 +4,7 @@ categories:
   - First Category
 date: '2018-06-30T10:30:36-07:00'
 description: This is the first category
-featured: site/static/img/2018/06/pic01.jpg
+featured: '/site/static/img/{{year}}/{{month}/screen-shot-2018-06-29-at-9.54.29-am.png'
 title: Blog with title
 type: post
 ---
