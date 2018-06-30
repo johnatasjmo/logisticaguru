@@ -20,4 +20,3 @@ collections:
       - {label: "featuredpath", name: "featuredpath", widget: "string"}
       - {label: "linktitle", name: "linktitle", widget: "string"}
       - {label: "title", name: "title", widget: "string"}
-      - {label: "type", name: "type", widget: "string". default: "post"}
