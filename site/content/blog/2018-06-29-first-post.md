@@ -1,11 +1,17 @@
----
-author: JMO
-categories: first category
-date: '2018-06-29T22:26:11-07:00'
-description: this is a description of the post
-title: First Post
-type: 'post'
----
++++
+author = "JMO"
+categories = ["First category"]
+tags = ["tutorial"]
+date = "2014-09-28"
+description = "Learn how to create a theme on Hugo"
+featured = "pic03.jpg"
+featuredalt = "Pic 3"
+featuredpath = "date"
+linktitle = ""
+title = "First theme"
+type = "post"
+
++++
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
 
 
