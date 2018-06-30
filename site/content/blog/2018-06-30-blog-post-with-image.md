@@ -4,7 +4,7 @@ categories:
   - first category
 date: '2018-06-30T09:33:28-07:00'
 description: this is a description
-featured: '/site/static/img/{{year}}/{{month}/screen-shot-2018-06-29-at-9.54.29-am.png'
+featured: ''
 title: Blog post with image
 type: post
 ---
