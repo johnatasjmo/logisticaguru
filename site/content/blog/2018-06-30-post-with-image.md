@@ -4,7 +4,7 @@ categories:
   - first category
 date: '2018-06-30T22:40:07-07:00'
 description: optional description
-featured: /img/2018/06/pic01.jpg
+featured: /site/img/screen-shot-2018-06-29-at-12.34.51-pm.png
 featuredpath: date
 title: Post with image
 type: post
