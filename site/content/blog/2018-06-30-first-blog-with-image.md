@@ -5,7 +5,7 @@ categories:
 date: '2018-06-30'
 description: This first blog description
 featured: screen-shot-2018-06-29-at-12.34.51-pm.png
-featuredpath: date
+featuredpath: 
 title: First blog with image
 type: post
 ---
