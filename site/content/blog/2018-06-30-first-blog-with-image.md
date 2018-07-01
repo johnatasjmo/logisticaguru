@@ -4,7 +4,7 @@ categories:
   - First category
 date: '2018-06-30'
 description: This first blog description
-featured: placeholder350.png
+featured: /site/static/img/main/screen-shot-2018-06-29-at-12.34.51-pm.png
 featuredpath: date
 title: First blog with image
 type: post
