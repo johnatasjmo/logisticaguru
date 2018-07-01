@@ -2,7 +2,7 @@
 author: JMO
 categories:
   - First category
-date: '2018-06-30T23:33:27-07:00'
+date: '2018-06-30T00:00:00-07:00'
 description: This first blog description
 featured: /img/2018/06/pic01.jpg
 featuredpath: date
