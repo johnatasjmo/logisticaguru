@@ -4,7 +4,7 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 publish_mode: editorial_workflow
 media_folder: "site/static/img/main" # as Media files will be stored in the repo under images/uploads
-public_folder: "/site/static/img/uploads" # The src attribute for uploaded media will begin with /images/uploads
+public_folder: "/site/static/img/main" # The src attribute for uploaded media will begin with /images/uploads
 extension: md
 format: toml-frontmatter
 collections:
