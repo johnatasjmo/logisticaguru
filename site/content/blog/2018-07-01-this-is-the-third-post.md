@@ -1,7 +1,6 @@
 ---
 author: JMO
 categories:
-  - First category
 date: '2018-07-01T15:23:46-07:00'
 description: this is a dummy description
 featured: third-image.png
