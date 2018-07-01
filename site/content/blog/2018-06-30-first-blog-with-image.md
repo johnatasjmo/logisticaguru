@@ -4,7 +4,7 @@ categories:
   - First category
 date: '2018-06-30'
 description: This first blog description
-featured: /static/img/uploads/download-7-.png
+featured: download-7-.png
 featuredpath: date
 title: First blog with image
 type: post
