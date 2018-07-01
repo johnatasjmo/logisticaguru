@@ -15,9 +15,9 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "author", name: "author", widget: "string"}
-      - {label: "categories", name: "categories", widget: "list"}
+      - {label: "categories", name: "categories", widget: "list", required: false}
       - {label: "date", name: "date", widget: "datetime"}
-      - {label: "description", name: "description", widget: "string"}
+      - {label: "description", name: "description", widget: "string", required: false}
       - {label: "featured", name: "featured", widget: "image", default: "static/img/2018/06/pic01.jpg", required: false}
       - {label: "featuredalt", name: "featuredalt", widget: "string", required: false}
       - {label: "featuredpath", name: "featuredpath", widget: "hidden", default: "date", required: false}
