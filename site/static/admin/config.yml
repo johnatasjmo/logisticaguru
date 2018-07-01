@@ -3,7 +3,7 @@ backend:
   repo: johnatasjmo/logisticaguru
   branch: master # Branch to update (optional; defaults to master)
 publish_mode: editorial_workflow
-media_folder: "site/static/img/main" # Media files will be stored in the repo under images/uploads
+media_folder: "site/static/img/main" # as Media files will be stored in the repo under images/uploads
 public_folder: "/site/static/img/uploads" # The src attribute for uploaded media will begin with /images/uploads
 extension: md
 format: toml-frontmatter
@@ -18,7 +18,7 @@ collections:
       - {label: "categories", name: "categories", widget: "list", required: false}
       - {label: "date", name: "date", widget: "datetime"}
       - {label: "description", name: "description", widget: "string", required: false}
-      - {label: "featured", name: "featured", widget: "string", default: "static/img/main/image-placeholder.png", required: false}
+      - {label: "featured", name: "featured", widget: "string", required: false}
       - {label: "featuredalt", name: "featuredalt", widget: "string", required: false}
       - {label: "featuredpath", name: "featuredpath", widget: "hidden", default: "date", required: false}
       - {label: "linktitle", name: "linktitle", widget: "string", required: false}
