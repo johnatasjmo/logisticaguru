@@ -5,7 +5,7 @@ categories:
 date: '2018-06-30'
 description: This first blog description
 featured: /img/2018/06/pic01.jpg
-featuredpath: date
+featuredpath: 'date'
 title: First blog with image
 type: post
 ---
