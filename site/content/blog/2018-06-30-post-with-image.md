@@ -4,16 +4,14 @@ categories:
   - first category
 date: '2018-06-30T22:40:07-07:00'
 description: optional description
-featured: /site/img/screen-shot-2018-06-29-at-12.34.51-pm.png
+featured: ''
 featuredpath: date
 title: Post with image
 type: post
 ---
 One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment.
 
-
-
-![](/site/img/screen-shot-2018-06-29-at-9.54.29-am.png)
+![](/site/img/screen-shot-2018-06-29-at-8.40.19-am.png)
 
 His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. "What's happened to me? " he thought. It wasn't a dream. His room, a proper human room although a little too small, lay peacefully between its four familiar walls.
 
