@@ -166,13 +166,13 @@ canonifyURLs = true
   wordpress        = ""
   medium           = ""
   # Professional/Business Oriented Communities
-  linkedin         = "example"
-  linkedin_company = "examplebusiness"
+  linkedin         = ""
+  linkedin_company = ""
   foursquare       = ""
   xing             = ""
   slideshare       = ""
   # Social Networks
-  facebook         = "example"
+  facebook         = "logisticaguru"
   googleplus       = ""
   reddit           = ""
   quora            = ""
