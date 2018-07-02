@@ -14,14 +14,33 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
+      - {label: "title", name: "title", widget: "string"}
       - {label: "author", name: "author", widget: "string"}
       - {label: "categories", name: "categories", widget: "list", required: false}
       - {label: "date", name: "date", widget: "datetime"}
       - {label: "description", name: "description", widget: "string", required: false}
       - {label: "featured", name: "featured", widget: "string", required: false}
       - {label: "featuredalt", name: "featuredalt", widget: "string", required: false}
-      - {label: "featuredpath", name: "featuredpath", widget: "hidden", default: "img/main", required: false} #set to img/main as default
       - {label: "linktitle", name: "linktitle", widget: "string", required: false}
-      - {label: "title", name: "title", widget: "string"}
       - {label: "type", name: "type", widget: "hidden", default: "post"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "featuredpath", name: "featuredpath", widget: "hidden", default: "img/main", required: false} #set to img/main as default
+  - name: "itemized" # Used in routes, e.g., /admin/collections/blog
+    label: "Item" # Used in the UI
+    folder: "site/content/itemized" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "title", name: "title", widget: "string"} # same as blog
+      - {label: "author", name: "author", widget: "string"} # same as blog
+      - {label: "categories", name: "categories", widget: "list", required: false} # list, same as blog
+      - {label: "date", name: "date", widget: "datetime"} # date format, same as blog
+      - {label: "description", name: "description", widget: "string", required: false} # same as blog
+      - {label: "featured", name: "featured", widget: "string", required: false} # image same as blog
+      - {label: "featuredalt", name: "featuredalt", widget: "string", required: false} # same as blog
+      - {label: "linktitle", name: "linktitle", widget: "string", required: false} # same as blog
+      - {label: "type", name: "type", widget: "hidden", default: "itemized"} # itemized type
+      - {label: "featuredpath", name: "featuredpath", widget: "hidden", default: "img/main", required: false} #set to img/main as default
+      - {label: "format", name: "format", widget: "string", required: false} # check what format means ???
+      - {label: "link", name: "link", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"} # body of the item
