@@ -1,4 +1,4 @@
-baseurl = "https://www.logistica.guru"
+baseurl = "/"
 languageCode = "es"
 title = "Logistica Guru"
 theme = "hugo-future-imperfect"
