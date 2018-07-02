@@ -1,6 +1,7 @@
 ---
 author: JMO
 categories:
+  - Second Category
 date: '2018-07-01T14:51:13-07:00'
 description: This is a second blog description
 featured: screen-shot-2018-06-29-at-12.34.51-pm.png
