@@ -130,13 +130,13 @@ canonifyURLs = true
 
 [[menu.main]]
   name = "Glosario"
-  url = "/glosario/"
+  url = "/itemized/"
   identifier = "fa fa-list"
   weight = 4
 
 [[menu.main]]
   name = "Categorias"
-  url = "/categorias/"
+  url = "/categories/"
   identifier = "fa fa-sitemap"
   weight = 5
 
