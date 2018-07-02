@@ -1,10 +1,10 @@
-baseurl = "/"
+baseurl = "https://logistica.guru/"
 languageCode = "es"
 title = "Logistica Guru"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
 paginate = 10
-disqusShortname = "johnatasmontezuma"
+disqusShortname = ""
 googleAnalytics = "UA-109487588-1"
 pluralizeListTitles = false
 # Set the followings to true as part of your site SEO
@@ -96,7 +96,7 @@ canonifyURLs = true
   # This appears at the top of the sidebar above params.intro.header.
   # A width of less than 100px is recommended from a design perspective.
   [params.intro.pic]
-    src       = "site/static/img/logo/logo.jpg"
+    src       = "/img/logo/logo.jpg"
     # Sets Image to be a cirlce
     circle    = true
     # Sets Image to be Future Imperfect's hexagon
