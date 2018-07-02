@@ -96,7 +96,7 @@ canonifyURLs = true
   # This appears at the top of the sidebar above params.intro.header.
   # A width of less than 100px is recommended from a design perspective.
   [params.intro.pic]
-    src       = "/img/main/logo.jpg"
+    src       = "site/static/img/logo/logo.jpg"
     # Sets Image to be a cirlce
     circle    = true
     # Sets Image to be Future Imperfect's hexagon
@@ -111,13 +111,13 @@ canonifyURLs = true
 # Sets the menu items in the navigation bar
 # Identifier prepends a Font Awesome icon to the menu item
 [[menu.main]]
-  name = "Home"
+  name = "Inicio"
   url = "/"
   identifier = "fa fa-home"
   weight = 1
 
 [[menu.main]]
-  name = "About"
+  name = "Nosotros"
   url = "/about/"
   identifier = "fa fa-id-card-o"
   weight = 2
@@ -129,20 +129,20 @@ canonifyURLs = true
   weight = 3
 
 [[menu.main]]
-  name = "Itemized"
-  url = "/itemized/"
+  name = "Glosario"
+  url = "/glosario/"
   identifier = "fa fa-list"
   weight = 4
 
 [[menu.main]]
-  name = "Categories"
-  url = "/categories/"
+  name = "Categorias"
+  url = "/categorias/"
   identifier = "fa fa-sitemap"
   weight = 5
 
 [[menu.main]]
-  name = "Contact"
-  url = "/contact/"
+  name = "Contacto"
+  url = "/contacto/"
   identifier = "fa fa-envelope-o"
   weight = 6
 
