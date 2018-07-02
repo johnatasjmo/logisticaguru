@@ -167,7 +167,7 @@ canonifyURLs = true
   medium           = ""
   # Professional/Business Oriented Communities
   linkedin         = ""
-  linkedin_company = ""
+  linkedin_company = "https://www.linkedin.com/company/logisticaguru/"
   foursquare       = ""
   xing             = ""
   slideshare       = ""
