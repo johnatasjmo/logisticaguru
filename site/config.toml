@@ -89,7 +89,7 @@ canonifyURLs = true
 [params.intro]
   header    = "Logistica Guru"
 
-  paragraph = "Revista sobre temas de logistica, cadena de suministro y transporte internacional en latinoamerica"
+  paragraph = "logística</br>cadena de suministro</br>transporte</br>comercio</br>puertos"
 
   about     = "logistica, supply chain, international commerce, netgen logistics, navieras, puertos, latinoamerica"
 
