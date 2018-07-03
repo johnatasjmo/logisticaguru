@@ -140,12 +140,6 @@ canonifyURLs = true
   identifier = "fa fa-sitemap"
   weight = 5
 
-[[menu.main]]
-  name = "Contacto"
-  url = "/contacto/"
-  identifier = "fa fa-envelope-o"
-  weight = 6
-
 # Sets Social Media icons to appear and link to your account. Value should be your
 # username unless otherwise noted. These are the icons affected by socialAppearAtTop
 # and socialAppearAtBottom.

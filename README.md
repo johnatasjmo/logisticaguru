@@ -49,3 +49,8 @@ Featured:
 Featuredalt:
 Linktitle:
 Body:
+
+## Workflow
+Workflow has the following steps: Drafts, In Review, Ready.
+Only Ready articles can be published.
+There are no roles configured, but it will be ok to have an editor role to move articles from In Review to Ready stage and later publishing.
