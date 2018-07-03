@@ -54,3 +54,10 @@ Body:
 Workflow has the following steps: Drafts, In Review, Ready.
 Only Ready articles can be published.
 There are no roles configured, but it will be ok to have an editor role to move articles from In Review to Ready stage and later publishing.
+
+1. First, add the image using the media button.
+2. Create a blog/item post and add the image name on the field "Image" (i.e placeholder1.png)
+3. Optionally, add images within the body
+4. Click on "Save"
+5. Mark the post as "Ready"
+6. Mark the post as "Published" wait for 1 minute and the post will be published
