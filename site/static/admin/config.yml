@@ -19,7 +19,7 @@ collections:
       - {label: "categories", name: "categories", widget: "list", required: false}
       - {label: "date", name: "date", widget: "datetime"}
       - {label: "description", name: "description", widget: "string", required: false}
-      - {label: "featured", name: "featured", widget: "string", required: false}
+      - {label: "image", name: "featured", widget: "string", required: false}
       - {label: "featuredalt", name: "featuredalt", widget: "string", required: false}
       - {label: "linktitle", name: "linktitle", widget: "string", required: false}
       - {label: "type", name: "type", widget: "hidden", default: "post"}
