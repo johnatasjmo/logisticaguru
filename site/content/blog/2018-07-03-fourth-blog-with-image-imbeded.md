@@ -4,6 +4,7 @@ author: JMO
 categories:
   - first
 date: '2018-07-03T14:27:59-07:00'
+featured: 350x150.png
 type: post
 featuredpath: img/main
 ---
