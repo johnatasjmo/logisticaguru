@@ -1,29 +1,18 @@
 +++
 title = "About Hugo"
-date = "2014-04-09"
+date = "2018-07-01"
 +++
 
-Hugo is a static site engine written in Go.
+Logistica Guru es un blog creado con la colaboracion de:
 
+* [Johnatas Montezuma](https://www.linkedin.com/in/johnatas-montezuma/)
+* [Pierina Romero](https://www.linkedin.com/in/pierina-romero-zuwolinsky-2675976b/)
 
-It makes use of a variety of open source projects including:
+En colaboracion con:
 
-* [Cobra](https://github.com/spf13/cobra)
-* [Viper](https://github.com/spf13/viper)
-* [J Walter Weatherman](https://github.com/spf13/jWalterWeatherman)
-* [Cast](https://github.com/spf13/cast)
+* [Logistics Maven](http://logisticsmaven.com/)
+* [Incoterms Guru](https://internationalcommercialterms.guru/)
 
-Learn more and contribute on [GitHub](https://github.com/spf13).
+Los comentarios y sugerencias estan bienvenidos a <mailto:jmo@logisticsmaven.com>
 
-## Setup
-
-Some fun facts about [Hugo](http://gohugo.io/):
-
-* Built in [Go](http://golang.org/)
-* Loosely inspired by [Jekyll](http://jekyllrb.com/)
-* Primarily developed by [spf13](http://spf13.com/) on the train while commuting to and from Manhattan.
-* Coded in [Vim](http://vim.org) using [spf13-vim](http://vim.spf13.com/)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/spf13/hugo/issues/new) or [ask me on Twitter](https://twitter.com/spf13).
-
-Thanks for reading!
+Gracias por leer!
