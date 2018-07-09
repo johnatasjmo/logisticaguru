@@ -110,11 +110,6 @@ canonifyURLs = true
 
 # Sets the menu items in the navigation bar
 # Identifier prepends a Font Awesome icon to the menu item
-[[menu.main]]
-  name = "Inicio"
-  url = "/"
-  identifier = "fa fa-home"
-  weight = 1
 
 [[menu.main]]
   name = "Nosotros"
@@ -126,7 +121,7 @@ canonifyURLs = true
   name = "Blog"
   url = "/blog/"
   identifier = "fa fa-newspaper-o"
-  weight = 2
+  weight = 1
 
 [[menu.main]]
   name = "Glosario"
