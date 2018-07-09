@@ -2,7 +2,7 @@
 title: La importancia de un Forwarders Cargo Receipt
 author: Johnatas Montezuma
 date: '2018-07-08T20:20:30-07:00'
-featured: placeholder1.png
+featured: 350x150.png
 type: post
 featuredpath: img/main
 ---
