@@ -2,7 +2,7 @@
 title: Principales puertos en Latinoamerica
 author: Johnatas Montezuma
 date: '2018-07-08T20:14:52-07:00'
-featured: palaceholder1.png
+featured: 350x150.png
 type: post
 featuredpath: img/main
 ---
