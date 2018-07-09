@@ -2,7 +2,7 @@
 title: Puntos importantes de un Bill of Lading
 author: Johnatas Montezuma
 date: '2018-07-08T20:50:21-07:00'
-featured: placeholder1.png
+featured: 350x150.png
 type: post
 featuredpath: img/main
 ---
