@@ -10,7 +10,7 @@ featuredalt = ""
 categories = [""]
 linktitle = ""
 format = "Android"
-link = "#"
+link = "https://internationalcommercialterms.guru"
 +++
 
 ## App 1
