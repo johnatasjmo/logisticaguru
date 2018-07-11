@@ -3,6 +3,7 @@ title: Incoterms - Guía rapida
 author: Johnatas Montezuma
 date: '2018-07-08T20:19:35-07:00'
 featured: 350x150.png
+linktitle: 'https://internationalcommercialterms.guru/'
 type: post
 featuredpath: img/main
 ---
