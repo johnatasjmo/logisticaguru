@@ -1,0 +1,6 @@
+[submodule "site/themes/hugo-future-imperfect-slim"]
+	path = site/themes/hugo-future-imperfect-slim
+	url = https://github.com/pacollins/hugo-future-imperfect-slim.git
+[submodule "hugo-theme-novela"]
+	path = hugo-theme-novela
+	url = https://github.com/forestryio/hugo-theme-novela.git
