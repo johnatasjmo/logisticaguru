@@ -2,7 +2,7 @@
     {{ partial "mobile_nav_toggle.html" . }}
     <div class="grid">
         <div class="row">
-          {{ range .Paginator.Pages }}
+          {{ range .Site.Taxonomies.tags.docs }}
               <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
                   <div class="box-masonry">
                       {{ if and (isset .Params "image") .Params.image }}
@@ -20,7 +20,6 @@
                       <div class="box-masonry-text">
                       {{ end }}
                           <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-                          <spam class="date">{{ dateFormat "Feb 2, 2006" .Lastmod }}</spam>
                           <div class="box-masonry-description">
                             <p>
                                 {{ if .Description }}
@@ -33,8 +32,7 @@
                       </div>
                   </div>
               </div>
-          {{ end }}       
+          {{ end }}
         </div>
     </div>
-    {{ template "_internal/pagination.html" . }}
 </div>

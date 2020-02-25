@@ -1,13 +1,15 @@
 +++
+date = "2019-11-05T19:41:01+05:30"
+title = "Documentacion 2"
 draft = false
-image = "img/portfolio/envelope-brand.jpg"
+image = "img/portfolio/business-card-26.jpg"
 showonlyimage = false
-date = "2016-11-05T20:02:19+05:30"
-title = "Item with image 9"
-weight = 9
+weight = 1
+tags = ["transporte"]
 +++
 
-Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. 
+Second line added. 
 <!--more-->
 
 Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.

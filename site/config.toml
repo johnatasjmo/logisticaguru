@@ -6,17 +6,19 @@ languageCode = "en-us"
 disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
-Paginate = 7
+paginate = 6
+
+[taxonomies]
+  tag = "tags"
 
 [params]
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
   style = "default"
-  description = "Describe your website"
-  copyright = "&copy;2016 Your name or company"
+  description = "Logistica y mas"
+  copyright = "Logistica Guru"
   sidebarAbout = [
-    "I am a creative illustrator and graphic designer with more than 10 years of experience.",
-    "Originally from Toronto, currently based in London."
+    ""
   ]
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
@@ -30,7 +32,7 @@ Paginate = 7
      # - send a dummy email yourself to confirm your account
      # - click the confirm link in the email from www.formspree.io
      # - you're done. Happy mailing!
-  email = "you@yoursite.com"
+  email = "jmo@logisticsmaven.com"
 
     # Optional Matomo analytics (formerly piwik)
       # [params.analytics.matomo]
@@ -43,9 +45,27 @@ Paginate = 7
 
   # Nav links in the side bar
   [[params.navlinks]]
-  name = "Home"
+  name = "Inicio"
   url = "portfolio/"
   home = true
+  weight = 1
+
+  [[params.navlinks]]
+  name = "Documentación"
+  url = "/tags/docs/"
+  home = true
+
+  [[params.navlinks]]
+  name = "Transporte"
+  url = "/tags/transporte/"
+  home = true
+  weight = 5
+
+  [[params.navlinks]]
+  name = "Noticias"
+  url = "noticias/"
+  home = true
+  weight = 5
 
   [[params.navlinks]]
   name = "About"
@@ -56,13 +76,13 @@ Paginate = 7
   url = "contact/"
 
   [params.social]
-  facebook      = "full page or profile url in facebook"
+  facebook      = ""
   googleplus    = ""
   email         = "email@example.com"
   twitter       = "full profile url in twitter"
   linkedin      = "full profile url in linkedin"
-  stackoverflow = "full profile url in stackoverflow"
-  instagram     = "full profile url in instagram"
-  github        = "full profile url in github"
-  youtube       = "full profile url in youtube"
-  whatsapp      = "wa.me service link"
+  stackoverflow = ""
+  instagram     = ""
+  github        = ""
+  youtube       = ""
+  whatsapp      = ""
