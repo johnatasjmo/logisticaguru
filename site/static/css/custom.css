@@ -8,3 +8,22 @@ spam.date {
 .sidebar-menu li:before {
     content: none;
 }
+
+.sidebar-heading a {
+    color: #219653;
+    letter-spacing: none;
+}
+
+.sidebar-heading {
+	font-family: 'Montserrat';
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.sidebar-menu li a {
+    color: #555555;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+
