@@ -74,9 +74,9 @@ paginate = 6
   [params.social]
   facebook      = ""
   googleplus    = ""
-  email         = "email@example.com"
-  twitter       = "full profile url in twitter"
-  linkedin      = "full profile url in linkedin"
+  email         = "jmo@logisticsmaven.com"
+  twitter       = ""
+  linkedin      = ""
   stackoverflow = ""
   instagram     = ""
   github        = ""
