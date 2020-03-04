@@ -5,8 +5,13 @@ languageCode = "es"
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
+googleAnalytics = "UA-109487588-1"
 paginate = 6
+
+# Set the followings to true as part of your site SEO
+enableRobotsTXT = true
+canonifyURLs = true
+
 
 [taxonomies]
   tag = "tags"
@@ -16,7 +21,7 @@ paginate = 6
   # Use custom.css for your custom styling
   style = "default"
   description = "Noticias y educacion sobre logistica y cadena de suministro 2"
-  copyright = "Logistica Guru 2"
+  copyright = "Logistica Guru"
   sidebarAbout = [
     ""
   ]
