@@ -15,8 +15,8 @@ paginate = 6
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
   style = "default"
-  description = "Noticias y educacion sobre logistica y cadena de suministro"
-  copyright = "Logistica Guru"
+  description = "Noticias y educacion sobre logistica y cadena de suministro 2"
+  copyright = "Logistica Guru 2"
   sidebarAbout = [
     ""
   ]
@@ -75,7 +75,7 @@ paginate = 6
   facebook      = ""
   googleplus    = ""
   email         = "jmo@logisticsmaven.com"
-  twitter       = ""
+  twitter       = "https://twitter.com/logisticaguru"
   linkedin      = ""
   stackoverflow = ""
   instagram     = ""
