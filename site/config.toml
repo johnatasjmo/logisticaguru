@@ -20,7 +20,7 @@ canonifyURLs = true
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
   style = "default"
-  description = "Noticias y educacion sobre logistica y cadena de suministro 2"
+  description = "Noticias y educacion sobre logistica y cadena de suministro"
   copyright = "Logistica Guru"
   sidebarAbout = [
     ""
@@ -59,18 +59,19 @@ canonifyURLs = true
   name = "Logistica"
   url = "/tags/logistica/"
   home = true
-  weight = 5
+  weight = 2
 
   [[params.navlinks]]
   name = "Transporte"
   url = "/tags/transporte/"
   home = true
-  weight = 5
+  weight = 3
 
   [[params.navlinks]]
   name = "Documentación"
   url = "/tags/docs/"
   home = true
+  weight = 4
 
   [[params.navlinks]]
   name = "Nosotros"
