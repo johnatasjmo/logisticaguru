@@ -16,8 +16,10 @@ spam.date {
 
 .sidebar-heading {
 	font-family: 'Montserrat';
-	font-size: 1.2em;
+	font-size: 1.3em;
 	font-weight: bold;
+    color: mediumseagreen;
+    letter-spacing: 0em;
 }
 
 .sidebar-menu li a {
