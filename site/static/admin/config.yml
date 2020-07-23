@@ -21,6 +21,7 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Show Image", name: "showonlyimage", widget: "hidden", default: "true"}
+      - {label: "Tags", name: "tags", widget: "select", options: ["front", "docs", "transporte"], multiple: true, default: ["front"]}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "noticias" # Used in routes, e.g., /admin/collections/blog
     label: "Noticias" # Used in the UI

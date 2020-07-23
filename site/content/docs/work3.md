@@ -5,10 +5,10 @@ date = "2016-11-05T19:44:32+05:30"
 title = "Name of the work 3"
 draft = false
 weight = 2
-tags = ["transporte", "docs", "logistica"]
+tags = ["transporte"]
 +++
 
-Fifth abundantly made Give sixth hath. Cattle creature i be don't them.
+Fifth abundantly kive made Give sixth hath. Cattle creature i be don't them.
 <!--more-->
 
 Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
