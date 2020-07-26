@@ -12,10 +12,37 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
   font-weight: 700;
   line-height: 1.2;
   color: #000000;
+}
+
+
+.body {
+    margin-top: 60px;
+}
+
+.bg-header {
+  color: #fff;
+  background-color: #2b7551;
+}
+a.bg-header:hover {
+  background-color: #1d5037;
+}
+
+a.navbar-brand {
+    font-family: "Ubuntu Mono";
+    font-weight: 700;
+}
+
+.lg-nav-item {
+    margin-right: 10px;
+}
+
+.lg-nav-link {
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 .sidebar-menu li:before {
@@ -49,15 +76,22 @@ h6,
     box-shadow: -1px 0 2px 0 rgba(0,0,0,0.12), 1px 0 2px 0 rgba(0,0,0,0.12), 0 1px 1px 0 rgba(0,0,0,0.24);
 }
 
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
 .box-masonry .box-masonry-image {
     background: #fff;
     padding: 14px;
 }
 
 .box-masonry h4 {
-    font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
-    font-weight: 600;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
     line-height: 1.2;
+    text-transform: none;
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: inherit;
 }
 
 spam.date {
