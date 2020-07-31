@@ -1,0 +1,84 @@
+<!-- As a link 
+<nav class="navbar navbar-light bg-success">
+  <a class="navbar-brand mx-auto" href="#">{{ $.Site.Title }}</a>
+</nav>
+<hr>
+-->
+
+<!-- 
+3 - Navbar with brand center, links on left and right that all collapse into the vertical mobile
+    menu
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark justify-content-between fixed-top lg-navbar">
+    <div class="container-fluid lg-container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse dual-nav w-50 order-1 order-md-0">
+            <ul class="navbar-nav">
+                {{ range .Site.Params.navlinks }}
+                <li class="nav-item lg-nav-item">
+                    <a class="nav-link lg-nav-link" href="{{ absURL .url }}">{{ .name }}</a>
+                {{ end }}
+                </li>
+            </ul>
+        </div>
+        <a href="/" class="navbar-brand mx-auto d-block text-center order-0 order-md-1 w-25"></a>
+        <div class="navbar-collapse collapse dual-nav w-50 order-2">
+            <div class="duckduckgo nav navbar-nav ml-auto">
+<iframe src="https://duckduckgo.com/search.html?site=internationalcommercialterms.guru&prefill=Search" style="overflow:hidden;margin:0;padding:0;width:200px;height:40px;" frameborder="0"></iframe>
+</div>
+        </div>
+    </div>
+</nav>
+-->
+<!-- 
+6 - Navbar with brand left, links left and right, toggler right
+    The links collapse into the mobile menu
+
+<nav class="navbar navbar-expand-md navbar-dark bg-danger">
+    <a class="navbar-brand lg-brand" href="/">{{ $.Site.Title }}</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar6">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse justify-content-stretch" id="navbar6">
+        <ul class="navbar-nav">
+                {{ range .Site.Params.navlinks }}
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ absURL .url }}">{{ .name }}</a>
+                {{ end }}
+                </li>
+                <li>
+                    <div class="duckduckgo nav navbar-nav ml-auto">
+                        <iframe src="https://duckduckgo.com/search.html?site=internationalcommercialterms.guru&prefill=Search" style="overflow:hidden;margin:0;padding:0;width:200px;height:40px;" frameborder="0"></iframe>
+                </div>
+                </li>
+        </ul>
+    </div>
+</nav>
+-->
+
+<!-- 
+6 - Navbar with brand left, links left and right, toggler right
+    The links collapse into the mobile menu
+-->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand mx-auto" href="/tags/transporte/">{{ $.Site.Title }}</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar6">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse justify-content-stretch" id="navbar6">
+        <ul class="navbar-nav ml-auto">
+             {{ range .Site.Params.navlinks }}
+            <li class="nav-item">
+                <a class="nav-link lg-nav-link" href="{{ absURL .url }}">{{ .name }}</a>
+            </li>
+            {{ end }}
+            <li>
+            <div class="duckduckgo nav navbar-nav ml-auto">
+                        <iframe src="https://duckduckgo.com/search.html?site=internationalcommercialterms.guru&prefill=Search" style="overflow:hidden;margin:0;padding:0;width:200px;height:40px;" frameborder="0"></iframe>
+            </div>
+            </li>
+        </ul>
+    </div>
+</nav>
