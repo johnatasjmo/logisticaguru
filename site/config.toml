@@ -48,32 +48,22 @@ canonifyURLs = true
 
   # Nav links in the side bar
   [[params.navlinks]]
-  name = "Inicio"
-  url = "/tags/front/"
+  name = "Noticias"
+  url = "/tags/noticias/"
   home = true
   weight = 1
 
   [[params.navlinks]]
-  name = "Logistica"
-  url = "/tags/logistica/"
+  name = "Supply Chain"
+  url = "/tags/supplychain/"
   home = true
   weight = 2
-
-  [[params.navlinks]]
-  name = "Transporte"
-  url = "/tags/transporte/"
-  home = true
-  weight = 3
 
   [[params.navlinks]]
   name = "Documentación"
   url = "/tags/docs/"
   home = true
   weight = 4
-
-  [[params.navlinks]]
-  name = "Nosotros"
-  url = "nosotros/"
 
   [params.social]
   facebook      = ""
