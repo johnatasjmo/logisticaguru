@@ -28,6 +28,10 @@ h6,
   background-color: #2b7551;
 }
 
+.lg-container {
+    margin-left: 5%;
+}
+
 .lg-header {
     border-bottom: 1px solid #ccc;
     background-color: #fff;
@@ -51,10 +55,11 @@ a.bg-header:hover {
 }
 
 a.navbar-brand {
-    font-family: "Ubuntu Mono";
+    font-family: "Roboto Mono";
     font-weight: 700;
     font-size: 1.6em;
     color: #333;
+    letter-spacing: -0.8px;
 }
 
 .abs-center-x {

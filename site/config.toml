@@ -22,9 +22,7 @@ canonifyURLs = true
   style = "default"
   description = "Noticias y educacion sobre logistica y cadena de suministro"
   copyright = "Logistica Guru"
-  sidebarAbout = [
-    ""
-  ]
+  sidebarAbout = [""]
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
      # proxy. The form makes a POST request to their servers to send the actual
