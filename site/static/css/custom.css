@@ -12,34 +12,74 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
   font-weight: 700;
   line-height: 1.2;
   color: #000000;
 }
 
-.sidebar-menu li:before {
-    content: none;
+
+/*
+.body {
+    margin-top: 0px;
+}
+*/
+
+div#all {
+    margin-top: 60px;
 }
 
-.sidebar-heading a {
-    color: #219653;
-    letter-spacing: none;
+.bg-header {
+  color: #fff;
+  background-color: #2b7551;
 }
 
-.sidebar-heading {
-	font-family: 'Montserrat';
-	font-size: 1.3em;
-	font-weight: bold;
-    color: mediumseagreen;
-    letter-spacing: 0em;
+.lg-container {
+    margin-left: 5%;
 }
 
-.sidebar-menu li a {
-    color: #555555;
-    font-size: 1.2em;
-    font-weight: bold;
+.lg-header {
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+    height: 60px;
 }
+
+
+
+ /*
+ .lg-navbar {
+    margin-top: 60px;
+}
+*/
+
+/*
+.lg-row {
+    padding-top: 1.2rem;
+}
+*/
+
+.duckduckgo {
+    padding-left: 20px;
+}
+
+
+a.bg-header:hover {
+  background-color: #1d5037;
+}
+
+a.navbar-brand {
+    font-family: "Roboto Mono";
+    font-weight: 700;
+    font-size: 1.6em;
+    color: #333;
+    letter-spacing: -0.8px;
+}
+
+.lg-nav-link {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
 
 
 /* cards */
@@ -49,15 +89,22 @@ h6,
     box-shadow: -1px 0 2px 0 rgba(0,0,0,0.12), 1px 0 2px 0 rgba(0,0,0,0.12), 0 1px 1px 0 rgba(0,0,0,0.24);
 }
 
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
 .box-masonry .box-masonry-image {
     background: #fff;
     padding: 14px;
 }
 
 .box-masonry h4 {
-    font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
-    font-weight: 600;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
     line-height: 1.2;
+    text-transform: none;
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: inherit;
 }
 
 spam.date {
