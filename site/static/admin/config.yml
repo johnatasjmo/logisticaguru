@@ -6,31 +6,46 @@ backend:
 # This line should *not* be indented
 publish_mode: editorial_workflow
 
-media_folder: "static/img" # Media files will be stored in the repo under static/images/uploads
-public_folder: "/img" # The src attribute for uploaded media will begin with /images/uploads
+media_folder: "site/static/img" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/uploads" # The src attribute for uploaded media will begin with /images/uploads
 
 collections:
-  - name: "docs" # Used in routes, e.g., /admin/collections/blog
-    label: "Documentacion" # Used in the UI
-    folder: "content/docs" # The path to the folder where the documents are stored
+  - name: "logistica" # Used in routes, e.g., /admin/collections/blog
+    label: "Logistica" # Used in the UI
+    folder: "site/content/docs" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "logistica"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Show Image", name: "showonlyimage", widget: "hidden", default: "true"}
-      - {label: "Tags", name: "tags", widget: "select", options: ["front", "docs", "transporte"], multiple: true, default: ["front"]}
+      - {label: "Tags", name: "tags", widget: "select", options: ["noticias", "supplychain", "logistica"], multiple: true, default: ["logistica"]}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "noticias" # Used in routes, e.g., /admin/collections/blog
-    label: "Noticias" # Used in the UI
-    folder: "content/noticias" # The path to the folder where the documents are stored
+  - name: "supplychain" # Used in routes, e.g., /admin/collections/blog
+    label: "Supply Chain" # Used in the UI
+    folder: "site/content/docs" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "logistica"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Show Image", name: "showonlyimage", widget: "hidden", default: "true"}
+      - {label: "Tags", name: "tags", widget: "select", options: ["noticias", "supplychain", "logistica"], multiple: true, default: ["supplychain"]}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "noticias" # Used in routes, e.g., /admin/collections/blog
+    label: "Noticias" # Used in the UI
+    folder: "site/content/noticias" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "noticias"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Show Image", name: "showonlyimage", widget: "hidden", default: "true"}
+      - {label: "Tags", name: "tags", widget: "select", options: ["noticias", "supplychain", "logistica"], multiple: true, default: ["logistica"]}
       - {label: "Body", name: "body", widget: "markdown"}

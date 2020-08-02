@@ -6,7 +6,7 @@ languageCode = "es"
 disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = "UA-109487588-1"
-paginate = 6
+paginate = 12
 
 # Set the followings to true as part of your site SEO
 enableRobotsTXT = true
@@ -60,10 +60,10 @@ canonifyURLs = true
   weight = 2
 
   [[params.navlinks]]
-  name = "Documentación"
+  name = "Logistica"
   url = "/tags/docs/"
   home = true
-  weight = 4
+  weight = 3
 
   [params.social]
   facebook      = ""

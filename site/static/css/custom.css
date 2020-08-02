@@ -25,6 +25,7 @@ h6,
 }
 */
 
+
 div#all {
     margin-top: 60px;
 }
@@ -42,21 +43,10 @@ div#all {
     border-bottom: 1px solid #ccc;
     background-color: #fff;
     height: 60px;
-}
-
-
-
- /*
+} 
  .lg-navbar {
-    margin-top: 60px;
+    padding-left: 1rem;
 }
-*/
-
-/*
-.lg-row {
-    padding-top: 1.2rem;
-}
-*/
 
 .duckduckgo {
     padding-left: 20px;
@@ -83,20 +73,26 @@ a.navbar-brand {
 
 
 /* cards */
+
 .box-masonry {
     border-top: 3px solid #000;
     border-bottom: 1px solid #ccc;
     box-shadow: -1px 0 2px 0 rgba(0,0,0,0.12), 1px 0 2px 0 rgba(0,0,0,0.12), 0 1px 1px 0 rgba(0,0,0,0.24);
 }
 
+
 *, ::after, ::before {
     box-sizing: border-box;
 }
+
+
+
 
 .box-masonry .box-masonry-image {
     background: #fff;
     padding: 14px;
 }
+
 
 .box-masonry h4 {
     font-family: "Montserrat", Helvetica, Arial, sans-serif;
@@ -106,6 +102,7 @@ a.navbar-brand {
     font-weight: 700;
     letter-spacing: inherit;
 }
+*/
 
 spam.date {
     color: #333;
@@ -113,4 +110,63 @@ spam.date {
     font-family: "Ubuntu Mono";
     /* float: left;
     padding: inherit; */
+}
+
+
+.masonry { /* Masonry container */
+    -webkit-column-count: 4;
+  -moz-column-count:4;
+  column-count: 4;
+  -webkit-column-gap: 1em;
+  -moz-column-gap: 1em;
+  column-gap: 1em;
+   margin: 1.5em;
+    padding: 0;
+    -moz-column-gap: 1.5em;
+    -webkit-column-gap: 1.5em;
+    column-gap: 1.5em;
+    font-size: .85em;
+}
+.item {
+    display: inline-block;
+    background: #fff;
+    padding: 1em;
+    margin: 0 0 1.5em;
+    width: 100%;
+    -webkit-transition:1s ease all;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-shadow: 2px 2px 4px 0 #ccc;
+}
+.item img{max-width:100%;}
+
+@media only screen and (max-width: 320px) {
+    .masonry {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 768px){
+    .masonry {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1200px){
+    .masonry {
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-count: 3;
+    }
+}
+@media only screen and (min-width: 1201px) {
+    .masonry {
+        -moz-column-count: 4;
+        -webkit-column-count: 4;
+        column-count: 4;
+    }
 }
