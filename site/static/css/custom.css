@@ -19,11 +19,8 @@ h6,
 }
 
 
-/*
-.body {
-    margin-top: 0px;
-}
-*/
+
+
 
 
 div#all {
@@ -74,20 +71,28 @@ a.navbar-brand {
 
 /* cards */
 
-.box-masonry {
+
+.masonry-grid {
+    margin-top: 20px;
+}
+
+.box-border {
     border-top: 3px solid #000;
     border-bottom: 1px solid #ccc;
     box-shadow: -1px 0 2px 0 rgba(0,0,0,0.12), 1px 0 2px 0 rgba(0,0,0,0.12), 0 1px 1px 0 rgba(0,0,0,0.24);
 }
-
-
-.box-masonry .box-masonry-image {
-    background: #fff;
+    
+.box-masonry {
     padding: 14px;
 }
 
+.box-masonry-image {
+    background: #fff;
+    margin-bottom: 1.2rem;
+}
 
-.box-masonry h4 {
+
+.box-masonry-text h4 {
     font-family: "Montserrat", Helvetica, Arial, sans-serif;
     line-height: 1.2;
     text-transform: none;
@@ -96,6 +101,9 @@ a.navbar-brand {
     letter-spacing: inherit;
 }
 
+.box-masonry-text a {
+    color: inherit;
+}
 
 spam.date {
     color: #333;
@@ -111,4 +119,18 @@ spam.date {
     font-family: "Roboto Mono";
     display: inline-flex;
     text-transform: uppercase;
+}
+
+/* test */
+* {
+    box-sizing: border-box;
+}
+
+.masonry-grid {
+    columns: 250px;
+    column-gap: 20px; 
+}
+.box-masonry {
+    break-inside: avoid-column;
+    margin-bottom: 1rem; 
 }
