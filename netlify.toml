@@ -10,7 +10,10 @@
   command = "npm run build:preview"
 
 [[headers]]
-  for = "/*"
+  for = "*.css"
   [headers.values]
-	cache-control = '''
-	max-age=31536000
+    Cache-Control = "max-age=604800, public"
+[[headers]]
+  for = "*.js"
+  [headers.values]
+    Cache-Control = "max-age=604800, public"
