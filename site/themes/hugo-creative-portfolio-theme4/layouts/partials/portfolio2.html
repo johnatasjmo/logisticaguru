@@ -7,9 +7,9 @@
                         {{ if eq .Params.showonlyimage true }}
                         <a href="{{ .Permalink }}" title="" class="with-hover-overlay">
                         {{ else }}
-                        <a href="{{ .Permalink }}" title="" class="with-hover-overlay with-hover-icon">
+                        <a href="{{ .Permalink }}" title="" class="with-hover-overlay">
                         {{ end }}
-                            <img src="{{.Params.image | absURL}}" alt="" class="img-fluid box-masonry-image">
+                            <img src="{{.Params.image | absURL}}" alt="" class="img-fluid box-masonry-image with-hover-overlay">
                         </a>
                       {{ end }}
                       {{ if eq .Params.showonlyimage true }}

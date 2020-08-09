@@ -18,11 +18,6 @@ h6,
   color: #000000;
 }
 
-
-
-
-
-
 div#all {
     margin-top: 60px;
 }
@@ -73,6 +68,8 @@ a.navbar-brand {
 
 
 .masonry-grid {
+    columns: 250px;
+    column-gap: 20px;
     margin-top: 20px;
 }
 
@@ -84,6 +81,8 @@ a.navbar-brand {
     
 .box-masonry {
     padding: 14px;
+    break-inside: avoid-column;
+    margin-bottom: 1rem; 
 }
 
 .box-masonry-image {
@@ -92,17 +91,29 @@ a.navbar-brand {
 }
 
 
-.box-masonry-text h4 {
+.box-masonry h4 a {
     font-family: "Montserrat", Helvetica, Arial, sans-serif;
     line-height: 1.2;
     text-transform: none;
     font-size: 1.3rem;
     font-weight: 700;
     letter-spacing: inherit;
+    color: #000000;
 }
 
-.box-masonry-text a {
-    color: inherit;
+.box-masonry h4 a:hover {
+  border-bottom: dotted 1px #ef5285;
+  color: #808080;
+  text-decoration: none;
+}
+
+.box-masonry:hover {
+  -webkit-box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+}
+
+img.img-fluid.box-masonry-image.with-hover-overlay:hover {
+    opacity: 0.5;
 }
 
 spam.date {
@@ -121,16 +132,12 @@ spam.date {
     text-transform: uppercase;
 }
 
+/* content*/
+.lg-content {
+    margin-top: 3rem;
+}
+
 /* test */
 * {
     box-sizing: border-box;
-}
-
-.masonry-grid {
-    columns: 250px;
-    column-gap: 20px; 
-}
-.box-masonry {
-    break-inside: avoid-column;
-    margin-bottom: 1rem; 
 }
