@@ -25,19 +25,19 @@ canonifyURLs = true
   # Nav links
   [[params.navlinks]]
   name = "Noticias"
-  url = "/tags/noticias/"
+  url = "/noticias/"
   home = true
   weight = 1
 
   [[params.navlinks]]
   name = "Supply Chain"
-  url = "/tags/supplychain/"
+  url = "/supplychain/"
   home = true
   weight = 2
 
   [[params.navlinks]]
   name = "Logistica"
-  url = "/tags/docs/"
+  url = "/logistica/"
   home = true
   weight = 3
 

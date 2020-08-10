@@ -4,6 +4,7 @@ image = "img/portfolio/trifold.jpg"
 showonlyimage = false
 date = "2016-11-05T20:22:08+05:30"
 title = "Item with image 10"
+heading = "Locuras"
 weight = 10
 tags = ["docs", "front"]
 +++

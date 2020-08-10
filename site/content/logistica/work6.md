@@ -6,6 +6,7 @@ title = "Name of the work 6"
 showonlyimage = false
 weight = 6
 tags =["transporte", "supplychain", "noticias"]
+layout = "logistica"
 +++
 
 Fifth abundantly made Give sixth hath. Cattle creature i be don't them.

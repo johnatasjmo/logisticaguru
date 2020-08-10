@@ -17,15 +17,13 @@
                       {{ else }}
                       <div class="box-masonry-text">
                       {{ end }}
-                          <!-- tags start
                           <div class="tags-mono">
-                            {{ range .Params.tags }}
-                            <h5 class="tag-mono">{{ . }}</h5>
-                            {{ end }}
+                            <h5 class="tag-mono">{{ .Params.heading }}</h5>
                             </div>
-                           tags end-->
                           <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+                          {{ if in .Params.tags "noticias" }}
                           <spam class="date">{{ dateFormat "Feb 2, 2006" .Lastmod }}</spam>
+                            {{ end }}
                       </div>
                   </div>
                 </div>
