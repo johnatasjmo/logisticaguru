@@ -17,6 +17,10 @@
                       {{ else }}
                       <div class="box-masonry-text">
                       {{ end }}
+                            <div class="tags-mono">
+                            {{ range first 1 .Params.tags }}
+                            <h5 class="tag-mono">{{ . }}</h5>
+                            {{ end }}
                           <!-- tags start
                           <div class="tags-mono">
                             {{ range .Params.tags }}
@@ -28,10 +32,6 @@
                           {{ if in .Params.tags "noticias" }}
                           <spam class="date">{{ dateFormat "Feb 2, 2006" .Lastmod }}</spam>
                             {{ else }}
-                              <div class="tags-mono">
-                            {{ range first 1 .Params.tags }}
-                            <h5 class="tag-mono">{{ . }}</h5>
-                            {{ end }}
                           {{ end }}
                       </div>
                   </div>
