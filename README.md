@@ -1,5 +1,13 @@
 # Logistica Guru
 
+## todo
+add tags and categories
+include tags and categories into CMS
+archetypes for noticias is different from others
+noticias must show date
+other articles must show tags on top
+
+
 ## Usage first site
 ```bash
 nvm use node

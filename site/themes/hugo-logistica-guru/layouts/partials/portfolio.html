@@ -25,7 +25,14 @@
                             </div>
                            tags end-->
                           <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+                          {{ if in .Params.tags "noticias" }}
                           <spam class="date">{{ dateFormat "Feb 2, 2006" .Lastmod }}</spam>
+                            {{ else }}
+                              <div class="tags-mono">
+                            {{ range first 1 .Params.tags }}
+                            <h5 class="tag-mono">{{ . }}</h5>
+                            {{ end }}
+                          {{ end }}
                       </div>
                   </div>
                 </div>
