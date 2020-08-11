@@ -3,7 +3,12 @@
   <div class="row justify-content-center lg-row">
     <div class="col-lg-8">
       <div class="content-column-content">
+      	<div class="tag-mono">
+            <h5>{{ .Params.heading }}</h5>
+         </div>
          <h1>{{ .Title }}</h1>
+         <spam class="date">{{ dateFormat "Feb 2, 2006" .Lastmod }}</spam>
+         <hr>
          {{ .Content }}
       </div>
     </div>

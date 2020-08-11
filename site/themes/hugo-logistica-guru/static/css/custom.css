@@ -124,7 +124,7 @@ spam.date {
     padding: inherit; */
 }
 
-.tag-mono {
+.tag-mono h5 {
     color: #333;
     font-size: 0.8em;
     font-family: "Roboto Mono";

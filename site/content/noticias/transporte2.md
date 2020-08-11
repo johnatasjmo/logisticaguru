@@ -4,6 +4,7 @@ image = "img/portfolio/paper-presentation.jpg"
 showonlyimage = false
 date = "2016-11-05T20:23:59+05:30"
 title = "transporte 2"
+heading = "some heading here"
 weight = 11
 tags =["transporte", "front"]
 layout = "noticias"
