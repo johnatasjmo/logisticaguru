@@ -137,7 +137,19 @@ spam.date {
     margin-top: 3rem;
 }
 
+/* footer */
+.lg-footer-bar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 0;
+    border-top: 3px solid #000;
+    border-bottom: 1px solid #ccc;
+    box-shadow: -1px 0 2px 0 rgba(0,0,0,0.12), 1px 0 2px 0 rgba(0,0,0,0.12), 0 1px 1px 0 rgba(0,0,0,0.24);
+}
+
+
 /* test */
 * {
     box-sizing: border-box;
 }
+
