@@ -10,6 +10,8 @@ paginate = 12
 enableRobotsTXT = true
 canonifyURLs = true
 
+pluralizelisttitles= false
+
 
 [taxonomies]
   tag = "tags"
