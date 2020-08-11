@@ -19,6 +19,7 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "logistica"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Heading", name: "heading", widget: "string"}
+      - {label: "Author", name: "author", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Show Image", name: "showonlyimage", widget: "hidden", default: "true"}
@@ -33,6 +34,7 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "logistica"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Heading", name: "heading", widget: "string"}
+      - {label: "Author", name: "author", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Show Image", name: "showonlyimage", widget: "hidden", default: "true"}
@@ -47,6 +49,7 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "noticias"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Heading", name: "heading", widget: "string"}
+      - {label: "Author", name: "author", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Show Image", name: "showonlyimage", widget: "hidden", default: "true"}
