@@ -12,7 +12,6 @@ h6,
 .h4,
 .h5,
 .h6 {
-  /*font-family: "Montserrat", Helvetica, Arial, sans-serif;*/
   font-family: 'Sanchez', serif;
   font-weight: 700;
   line-height: 1.2;
@@ -93,8 +92,7 @@ a.navbar-brand {
 
 
 .box-masonry h4 a {
-    /*font-family: "Montserrat", Helvetica, Arial, sans-serif;*/
-    font-family: 'Sanchez', serif;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
     line-height: 1.2;
     text-transform: none;
     font-size: 1.3rem;
@@ -129,7 +127,7 @@ spam.date {
 .tag-mono h5 {
     color: #333;
     font-size: 0.8em;
-    font-family: "Roboto";
+    font-family: "Roboto Mono";
     display: inline-flex;
     text-transform: uppercase;
 }
